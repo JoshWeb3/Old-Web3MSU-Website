@@ -1,0 +1,70 @@
+.redhawk {
+  max-width: 30%;
+  max-height: auto;
+  margin: auto;
+  display: block;
+}
+
+.votingPower {
+  max-width: 60%;
+  max-height: auto;
+}
+
+.redhawkplus {
+  max-width: 20%;
+  max-height: auto;
+}
+
+.donateUniversal {
+  transition: 0.2s;
+  border-radius: 6px;
+  border: 1px solid rgb(255, 55, 105);
+  cursor: pointer;
+  padding: 10px;
+  max-width: 30%;
+  margin-left: 31%;
+}
+
+.donateUniversal:hover {
+  background-color: rgb(255, 55, 105);
+}
+
+.votePropose {
+  display: inline-block;
+  transition: 0.2s;
+  border-radius: 6px;
+  border: 1px solid rgb(255, 55, 105);
+  cursor: pointer;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.maxWidth {
+  max-width: 70%;
+  max-height: auto;
+}
+
+.votePropose:hover {
+  background-color: rgb(255, 55, 105);
+}
+
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #e60073,
+      0 0 10px #e60073, 0 0 12.5px #e60073, 0 0 15px #e60073, 0 0 17.5px #e60073;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 7.5px #ff4da6, 0 0 10px #ff4da6,
+      0 0 17.5px #ff4da6, 0 0 15px #ff4da6, 0 0 17.5px #ff4da6, 0 0 20px #ff4da6;
+  }
+}
